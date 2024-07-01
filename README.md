@@ -26,11 +26,30 @@ IT resources are only a click away, which means that you reduce the time to make
 
 The global footprint of the AWS Cloud enables you to deploy applications to customers around the world quickly, while providing them with low latency. This means that even if you are located in a different part of the world than your customers, customers are able to access your applications with minimal delays. This means that you can provide lower latency and a better experience for your customers at a minimal cost.
 
+### Compute in the cloud
+AWS has different types of EC2 instances that you can spin up and deploy into your AWS environment. Each instance type is grouped under an instance family and are optimized for certain types of tasks. Instance types offer varying combinations of CPU, memory, storage, and networking capacity, and give you the flexibility to choose the appropriate mix of resources for your applications. The different instance families in EC2 are general purpose, compute optimized, memory optimized, accelerated computing, and storage optimized. 
 
+**`General purpose`** instances provide a good balance of compute, memory, and networking resources, and can be used for a variety of diverse workloads 
+- application servers
+- gaming servers
+- backend servers for enterprise applications
+- small and medium databases
 
+**`Compute optimized`** instances are ideal for compute-bound applications that benefit from ``high-performance processors``. Like general purpose instances, you can use compute optimized instances for workloads such as web, application, and gaming servers.
+- compute-intensive tasks like gaming servers
+- high performance computing or HPC
+- scientific modeling
+- batch processing workloads that require processing many transactions in a single group.
 
+**`Memory optimized`** instances are good for memory-intensive tasks. 
+- Suppose that you have a workload that requires large amounts of data to be preloaded before running an application. This scenario might be a ``high-performance database`` or a workload that involves performing real-time processing of a large amount of unstructured data.
 
+**`Accelerated computing`** use hardware accelerators, or coprocessors, to perform some functions more efficiently than is possible in software running on CPUs. Examples of these functions include floating-point number calculations, graphics processing, and data pattern matching.
 
+**`Storage optimized`** are good for workloads that require high performance for locally stored data. They are designed for workloads that require high, sequential read and write access to large datasets on local storage.  
+- distributed file systems
+- data warehousing applications and
+- high-frequency online transaction processing (OLTP) systems.
 
 Data and Application lives and runs in a Region, one of the first decision you get to make is which region to pick? 
 
