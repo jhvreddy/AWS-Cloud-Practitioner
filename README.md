@@ -18,13 +18,13 @@ Computing in data centers often requires you to spend more money and time managi
 With cloud computing, you don’t have to predict how much infrastructure capacity you will need before deploying an application.Instead of paying for unused resources or having to deal with limited capacity, you can access only the capacity that you need. You can also scale in or scale out in response to demand.
 - ``Benefit from massive economies of scale``
 
-By using cloud computing, you can achieve a lower variable cost than you can get on your own.Because usage from hundreds of thousands of customers can aggregate in the cloud, providers, such as AWS, can achieve higher economies of scale. The economy of scale translates into lower pay-as-you-go prices. 
+By using cloud computing, you can achieve a lower variable cost than you can get on your own. AWS aggregates usage from hundreds of thousands of customers in the cloud, which leads to higher economies of scale. This translates into lower pay-as-you-go prices. 
 - ``Increase speed and agility``
 
-The flexibility of cloud computing makes it easier for you to develop and deploy applications.This flexibility provides you with more time to experiment and innovate. When computing in data centers, it may take weeks to obtain new resources that you need. By comparison, cloud computing enables you to access new resources within minutes.
+IT resources are only a click away, which means that you reduce the time to make resources available to your developers from weeks to minutes. This dramatically increases agility for the organization, because the cost and time it takes to experiment and develop is significantly lower.The flexibility of cloud computing makes it easier for you to develop and deploy applications.This flexibility provides you with more time to experiment and innovate. 
 - ``Go global in minutes``
 
-The global footprint of the AWS Cloud enables you to deploy applications to customers around the world quickly, while providing them with low latency. This means that even if you are located in a different part of the world than your customers, customers are able to access your applications with minimal delays. 
+The global footprint of the AWS Cloud enables you to deploy applications to customers around the world quickly, while providing them with low latency. This means that even if you are located in a different part of the world than your customers, customers are able to access your applications with minimal delays. This means that you can provide lower latency and a better experience for your customers at a minimal cost.
 
 
 
