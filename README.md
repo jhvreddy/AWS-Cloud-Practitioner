@@ -35,14 +35,14 @@ AWS has different types of EC2 instances that you can spin up and deploy into yo
 - backend servers for enterprise applications
 - small and medium databases
 
-**`Compute optimized`** instances are ideal for compute-bound applications that benefit from ``high-performance processors``. Like general purpose instances, you can use compute optimized instances for workloads such as web, application, and gaming servers.
+**`Compute optimized`** instances are ideal for compute-bound applications that benefit from **high-performance processors**. Like general purpose instances, you can use compute optimized instances for workloads such as web, application, and gaming servers.
 - compute-intensive tasks like gaming servers
 - high performance computing or HPC
 - scientific modeling
 - batch processing workloads that require processing many transactions in a single group.
 
 **`Memory optimized`** instances are designed to deliver fast performance for workloads that process large datasets in memory.  
-- Suppose that you have a workload that requires large amounts of data to be preloaded before running an application. This scenario might be a ``high-performance database`` or a workload that involves performing real-time processing of a large amount of unstructured data.
+- Suppose that you have a workload that requires large amounts of data to be preloaded before running an application. This scenario might be a **high-performance database** or a workload that involves performing real-time processing of a large amount of unstructured data.
 
 **`Accelerated computing`** use hardware accelerators, or coprocessors, to perform some functions more efficiently than is possible in software running on CPUs. Examples of these functions include floating-point number calculations, graphics processing, and data pattern matching.
 
