@@ -51,7 +51,38 @@ AWS has different types of EC2 instances that you can spin up and deploy into yo
 - data warehousing applications and
 - high-frequency online transaction processing (OLTP) systems.
 
-Data and Application lives and runs in a Region, one of the first decision you get to make is which region to pick? 
+### Amazon Ec2-pricing
+**`On-Demand`** On-Demand Instances are ideal for short-term, irregular workloads that cannot be interrupted. No upfront costs or minimum contracts apply. The instances run continuously until you stop them, and you pay for only the compute time you use.
+
+Sample use cases for On-Demand Instances include developing and testing applications and running applications that have unpredictable usage patterns. On-Demand Instances are not recommended for workloads that last a year or longer because these workloads can experience greater cost savings using Reserved Instances.
+
+**`Reserved Instances`** These are suited for steady-state workloads or ones with predictable usage and offer you up to a 75% discount versus On-Demand pricing. You qualify for a discount once you commit to a one or three-year term and can pay for them with three payment options: all upfront, where you pay for them in full when you commit; partial upfront, where you pay for a portion when you commit; and no upfront, where you don't pay anything at the beginning.
+
+Reserved Instances are a billing discount applied to the use of On-Demand Instances in your account. There are two available types of Reserved Instances:
+- Standard Reserved Instances
+- Convertible Reserved Instances
+You can purchase Standard Reserved and Convertible Reserved Instances for a 1-year or 3-year term. You realize greater cost savings with the 3-year option.
+
+``Standard Reserved Instances`` This option is a good fit if you know the EC2 instance type and size you need for your steady-state applications and in which AWS Region you plan to run them. Reserved Instances require you to state the following qualifications:
+- Instance type and size: For example, m5.xlarge
+- Platform description (operating system): For example, Microsoft Windows Server or Red Hat Enterprise Linux
+- Tenancy: Default tenancy or dedicated tenancy
+You have the option to specify an Availability Zone for your EC2 Reserved Instances. If you make this specification, you get EC2 capacity reservation. This ensures that your desired amount of EC2 instances will be available when you need them. 
+
+``Convertible Reserved Instances`` If you need to run your EC2 instances in different Availability Zones or different instance types, then Convertible Reserved Instances might be right for you. 
+
+**Note** You trade in a deeper discount when you require flexibility to run your EC2 instances.
+
+**`Savings Plan`** Savings Plan offers low prices on EC2 usage in exchange for a commitment to a consistent amount of usage measured in dollars per hour for a one or three-year term. This flexible pricing model can therefore provide savings of up to 72% on your AWS compute usage. This can lower prices on your EC2 usage, regardless of instance family, size, OS, tenancy, or AWS region. This also applies to AWS Fargate and AWS Lambda usage, which are serverless compute options
+
+- The EC2 Instance Savings Plans are a good option if you need flexibility in your Amazon EC2 usage over the duration of the commitment term. You have the benefit of saving costs on running any EC2 instance within an EC2 instance family in a chosen Region (for example, M5 usage in N. Virginia) regardless of Availability Zone, instance size, OS, or tenancy. **The savings with EC2 Instance Savings Plans are similar to the savings provided by Standard Reserved Instances.**
+- Unlike Reserved Instances, however, you don't need to specify up front what EC2 instance type and size (for example, m5.xlarge), OS, and tenancy to get a discount. Further, you don't need to commit to a certain number of EC2 instances over a 1-year or 3-year term. Additionally, the EC2 Instance Savings Plans don't include an EC2 capacity reservation option.
+
+
+
+Data and Application lives and runs in a Region, one of the first decision you get to make is which region to pick?
+
+
 
 **`Four Business factors`** influence the selection of a region
 - Compliance  --> Data must live inside some boundary/not
